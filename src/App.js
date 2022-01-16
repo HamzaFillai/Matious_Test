@@ -29,6 +29,7 @@ export default function App() {
     {
       for (let i = 0; i < products.length; i++) {
         items.push({ 
+          key : products[i].id,
           image : imageFormatter(products[i].image),
           title: products[i].title, 
           description: products[i].description, 
